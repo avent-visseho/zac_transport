@@ -3,286 +3,335 @@
 </script>
 
 <template>
-    <footer class="footer-section">
-        <div class="container">
-            <div class="footer-content pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html">Logo</a>
-                            </div>
-                            <div class="footer-text">
-                                <p>Réservez votre prochain voyage en bus avec simplicité <br> et sécurité. Découvrez des
-                                    trajets confortables à des prix imbattables !</p>
-                            </div>
-                            <div class="footer-social-icon">
-                                <span>Suivez-nous</span>
-                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Liens utiles</h3>
-                            </div>
-                            <ul>
-                                <li><a href="#">Acceuil</a></li>
-                                <li><a href="#">Produits</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">A propos</a></li>
-                                <li><a href="#">Itinéraire</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>S'abonner</h3>
-                            </div>
-                            <div class="footer-text mb-25">
-                                <p>Ne manquez pas de vous abonner à nos nouveaux flux, en remplissant le formulaire
-                                    ci-dessous.</p>
-                            </div>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email Address">
-                                    <button><i class="fab fa-telegram-plane"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+    <footer>
+        <div class="content">
+            <div class="top">
+                <!--   <div class="logo-details">
+                    <i class="fab fa-slack"></i>
+                   <span>logo</span>
+                </div> -->
+                <div class="media-icons">
+                    <a href="https://web.facebook.com/profile.php?id=61559640325021" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
+            <div class="link-boxes">
+                <ul class="box">
+                    <li class="link_name">Entreprise</li>
+                    <li><a href="#banner">Acceuil</a></li>
+                    <li><a href="#featured">A propos</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Services</li>
+                    <li><a href="#portfolio">Location de vehicule</a></li>
+                    <li><a href="#portfolio">Livraison de colis</a></li>
+                    <li><a href="#portfolio">Réservation de ticket</a></li>
+                    <li><a href="#portfolio">Carte de Fidélité VIP</a></li>
+                </ul>
+                <ul class="box">
+                    <li class="link_name">Contact</li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+                <ul class="box input-box">
+                    <li class="link_name">S'abonner</li>
+                    <li><input type="text" placeholder="Saisissez votre e-mail"></li>
+                    <li><input type="button" value="S'abonner"></li>
+                </ul>
+            </div>
         </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Copyright &copy; 2024, tous droits réservés <a
-                                    href="https://bus-reservation.cczinterco.org/">bus-reservation</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="#">Acceuil</a></li>
-                                <li><a href="#">Conditions</a></li>
-                                <li><a href="#">Vie privée</a></li>
-                                <li><a href="#">Politique</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2024 <a href="#">bus-reservation.</a>tous droits réservé</span>
+                <span class="policy_terms">
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Conditions générales</a>
+                </span>
             </div>
         </div>
     </footer>
+
 </template>
 
 <style scoped>
-
-ul {
-    margin: 0px;
-    padding: 0px;
+footer {
+    background: #140B5C;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
-.footer-section {
-    background: #2f2f80;
-    position: relative;
+footer::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100px;
+    height: 1px;
+    width: 100%;
+    background: #AFAFB6;
 }
 
-.row {
+footer .content {
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+}
+
+footer .content .top {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.content .top .logo-details {
+    color: #fff;
+    font-size: 30px;
+}
+
+.content .top .media-icons {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.content .top .media-icons a {
+    height: 40px;
+    width: 40px;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.top .media-icons a:nth-child(1) {
+    background: #4267B2;
+}
+
+.top .media-icons a:nth-child(1):hover {
+    color: #4267B2;
+    background: #fff;
+}
+
+.top .media-icons a:nth-child(2) {
+    background: #1DA1F2;
+}
+
+.top .media-icons a:nth-child(2):hover {
+    color: #1DA1F2;
+    background: #fff;
+}
+
+.top .media-icons a:nth-child(3) {
+    background: #E1306C;
+}
+
+.top .media-icons a:nth-child(3):hover {
+    color: #E1306C;
+    background: #fff;
+}
+
+.top .media-icons a:nth-child(4) {
+    background: #0077B5;
+}
+
+.top .media-icons a:nth-child(4):hover {
+    color: #0077B5;
+    background: #fff;
+}
+
+.top .media-icons a:nth-child(5) {
+    background: #FF0000;
+}
+
+.top .media-icons a:nth-child(5):hover {
+    color: #FF0000;
+    background: #fff;
+}
+
+footer .content .link-boxes {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
 }
 
-.footer-cta {
-    border-bottom: 1px solid #2f2f80;
+footer .content .link-boxes .box {
+    width: calc(100% / 5 - 10px);
 }
 
-.single-cta i {
-    color: #ff5e14;
-    font-size: 30px;
-    float: left;
-    margin-top: 8px;
-}
-
-.cta-text {
-    padding-left: 15px;
-    display: inline-block;
-}
-
-.cta-text h4 {
+.content .link-boxes .box .link_name {
     color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 2px;
-}
-
-.cta-text span {
-    color: #757575;
-    font-size: 15px;
-}
-
-.footer-content {
-    position: relative;
-    z-index: 2;
-}
-
-.footer-pattern img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 330px;
-    background-size: cover;
-    background-position: 100% 100%;
-}
-
-.footer-logo {
-    margin-bottom: 30px;
-}
-
-.footer-logo img {
-    max-width: 200px;
-}
-
-.footer-text p {
-    margin-bottom: 14px;
-    font-size: 14px;
-    color: #7e7e7e;
-    line-height: 28px;
-}
-
-.footer-social-icon span {
-    color: #fff;
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 20px;
-}
-
-.footer-social-icon a {
-    color: #fff;
-    font-size: 16px;
-    margin-right: 15px;
-}
-
-.footer-social-icon i {
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    line-height: 38px;
-    border-radius: 50%;
-}
-
-.facebook-bg {
-    background: #d10fc1;
-}
-
-.twitter-bg {
-    background: #55acee;
-}
-
-.google-bg {
-    background: #dd4b39;
-}
-
-.footer-widget-heading h3 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
     position: relative;
 }
 
-.footer-widget-heading h3::before {
-    content: "";
+.link-boxes .box .link_name::before {
+    content: '';
     position: absolute;
     left: 0;
-    bottom: -15px;
+    bottom: -2px;
     height: 2px;
-    width: 50px;
-    background: #ff5e14;
+    width: 35px;
+    background: #fff;
 }
 
-.footer-widget ul li {
-    display: inline-block;
-    float: left;
-    width: 50%;
-    margin-bottom: 12px;
+.content .link-boxes .box li {
+    margin: 6px 0;
+    list-style: none;
 }
 
-.footer-widget ul li a:hover {
-    color: #ff5e14;
+.content .link-boxes .box li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.4s ease
 }
 
-.footer-widget ul li a {
-    color: #878787;
-    text-transform: capitalize;
+.content .link-boxes .box li a:hover {
+    opacity: 1;
+    text-decoration: underline;
 }
 
-.subscribe-form {
-    position: relative;
-    overflow: hidden;
+.content .link-boxes .input-box {
+    margin-right: 55px;
 }
 
-.subscribe-form input {
+.link-boxes .input-box input {
+    height: 40px;
+    width: calc(100% + 55px);
+    outline: none;
+    border: 2px solid #AFAFB6;
+    background: #140B5C;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.link-boxes .input-box input::placeholder {
+    color: #AFAFB6;
+    font-size: 16px;
+}
+
+.link-boxes .input-box input[type="button"] {
+    background: #fff;
+    color: #140B5C;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 4px 0;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.input-box input[type="button"]:hover {
+    opacity: 1;
+}
+
+footer .bottom-details {
     width: 100%;
-    padding: 14px 28px;
-    background: #2f2f80;
-    border: 1px solid #2e2e2e;
-    color: #fff;
+    background: #0F0844;
 }
 
-.subscribe-form button {
-    position: absolute;
-    right: 0;
-    background: #ff5e14;
-    padding: 13px 20px;
-    border: 1px solid #ff5e14;
-    top: 0;
+footer .bottom-details .bottom_text {
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.subscribe-form button i {
-    color: #fff;
-    font-size: 22px;
-    transform: rotate(-6deg);
-}
-
-.copyright-area {
-    background: #09217c;
-    padding: 25px 0;
-}
-
-.copyright-text p {
-    margin: 0;
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
     font-size: 14px;
-    color: #878787;
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
 }
 
-.copyright-text p a {
-    color: #ff5e14;
+.bottom-details .bottom_text a:hover {
+    opacity: 1;
+    text-decoration: underline;
 }
 
-.footer-menu li {
-    display: inline-block;
-    margin-left: 20px;
+.bottom-details .bottom_text a {
+    margin-right: 10px;
 }
 
-.footer-menu li:hover a {
-    color: #ff5e14;
+@media (max-width: 900px) {
+    footer .content .link-boxes {
+        flex-wrap: wrap;
+    }
+
+    footer .content .link-boxes .input-box {
+        width: 40%;
+        margin-top: 10px;
+    }
 }
 
-.footer-menu li a {
-    font-size: 14px;
-    color: #878787;
+@media (max-width: 700px) {
+    footer {
+        position: relative;
+    }
+
+    .content .top .logo-details {
+        font-size: 26px;
+    }
+
+    .content .top .media-icons a {
+        height: 35px;
+        width: 35px;
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    footer .content .link-boxes .box {
+        width: calc(100% / 3 - 10px);
+    }
+
+    footer .content .link-boxes .input-box {
+        width: 60%;
+    }
+
+    .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 520px) {
+    footer::before {
+        top: 145px;
+    }
+
+    footer .content .top {
+        flex-direction: column;
+    }
+
+    .content .top .media-icons {
+        margin-top: 16px;
+    }
+
+    footer .content .link-boxes .box {
+        width: calc(100% / 2 - 10px);
+    }
+
+    footer .content .link-boxes .input-box {
+        width: 100%;
+    }
 }
 </style>

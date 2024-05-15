@@ -13,13 +13,16 @@
                         <div class="col-lg-6">
                             <div class="item phone">
                                 <img src="/public/assets/images/phone-icon.png" alt="" style="max-width: 52px;">
-                                <h6>+229 000000<br><span>Phone Number</span></h6>
+                                <h6 style="font-size: 12px;">+22997768739
+                                    <br><span>Phone Number</span>
+                                </h6>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="item email">
                                 <img src="/public/assets/images/email-icon.png" alt="" style="max-width: 52px;">
-                                <h6> bus@reser.com<br><span>Business Email</span></h6>
+                                <h6 style="font-size: 12px;"> zacgrouptransport@gmail.com<br><span>Business Email</span>
+                                </h6>
                             </div>
                         </div>
                     </div>
@@ -56,7 +59,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+                                    <button type="submit" id="form-submit" class="orange-button">Envoyer</button>
                                 </fieldset>
                             </div>
                         </div>

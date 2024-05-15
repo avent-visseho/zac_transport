@@ -1,10 +1,10 @@
 <template>
-    <div class="featured section">
+    <div class="featured section" id="featured">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="left-image">
-                        <img src="/public/assets/images/bus1.jpeg" alt="">
+                        <img src="/public/assets/zacImages/b11.jpeg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -69,19 +69,19 @@
                     <div class="info-table">
                         <ul>
                             <li>
-                                <img src="/public/assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
+                                <img src="/public/assets/images/busIco.png" alt="" style="max-width: 52px;">
                                 <h4>4<br><span>Nombre de bus</span></h4>
                             </li>
                             <li>
-                                <img src="/public/assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
+                                <img src="/public/assets/images/bus-station.png" alt="" style="max-width: 52px;">
                                 <h4>2<br><span>Destination</span></h4>
                             </li>
                             <li>
-                                <img src="/public/assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
+                                <img src="/public/assets/images/bus-stop.png" alt="" style="max-width: 52px;">
                                 <h4>10<br><span> Nombre d'arrêt</span></h4>
                             </li>
                             <li>
-                                <img src="/public/assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
+                                <img src="/public/assets/images/busIco.png" alt="" style="max-width: 52px;">
                                 <h4>200k<br><span>Nombre de départ</span></h4>
                             </li>
                         </ul>

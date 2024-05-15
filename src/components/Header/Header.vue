@@ -13,12 +13,10 @@
                         </div>
                         <ul class="nav">
                             <li><a href="#" class="active">Acceuil</a></li>
-                            <li><a href="#">A propos</a></li>
-                            <li><a href="#">Produits</a></li>
+                            <li><a href="#featured">A propos</a></li>
                             <li><a href="#">Itinéraire</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <!--   <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li> -->
+                            <li><a href="#portfolio">Services</a></li>
+                              <li><a href="#contact"><i class="fa fa-user"></i> Contact</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>

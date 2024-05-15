@@ -17,8 +17,8 @@ import ServicesCard from '@/components/services/ServicesCard.vue'
     <Header />
     <Banner />
     <Featured />
-    <Gallery />
     <ServicesCard />
+    <Gallery />
     <!-- <BestDeal /> -->
 <!--     <SlideBus /> -->
     <ContactSection />
