@@ -13,7 +13,7 @@
                 <div class="media-icons">
                     <a href="https://web.facebook.com/profile.php?id=61559640325021" target="_blank"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/++22997768739"><i class="fab fa-whatsapp"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
@@ -36,11 +36,6 @@
                     <li class="link_name">Contact</li>
                     <li><a href="#contact">Contact</a></li>
 
-                </ul>
-                <ul class="box input-box">
-                    <li class="link_name">S'abonner</li>
-                    <li><input type="text" placeholder="Saisissez votre e-mail"></li>
-                    <li><input type="button" value="S'abonner"></li>
                 </ul>
             </div>
         </div>
@@ -121,11 +116,11 @@ footer .content .top {
 }
 
 .top .media-icons a:nth-child(2) {
-    background: #1DA1F2;
+    background: #1df22f;
 }
 
 .top .media-icons a:nth-child(2):hover {
-    color: #1DA1F2;
+    color: #1df22f;
     background: #fff;
 }
 

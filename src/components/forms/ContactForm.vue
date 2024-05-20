@@ -11,17 +11,17 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="item phone">
+                            <div class="item phone ico">
                                 <img src="/public/assets/images/phone-icon.png" alt="" style="max-width: 52px;">
                                 <h6 style="font-size: 12px;">+22997768739
-                                    <br><span>Phone Number</span>
+                                    <br><span>Téléphone</span>
                                 </h6>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="item email">
+                            <div class="item email ico">
                                 <img src="/public/assets/images/email-icon.png" alt="" style="max-width: 52px;">
-                                <h6 style="font-size: 12px;"> zacgrouptransport@gmail.com<br><span>Business Email</span>
+                                <h6 style="font-size: 12px;"> zacgrouptransport@gmail.com<br><span>Email</span>
                                 </h6>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                             <div class="col-lg-12">
                                 <fieldset>
                                     <label for="name">Nom complet</label>
-                                    <input type="name" name="name" id="name" placeholder="Your Name..."
+                                    <input type="name" name="name" id="name" placeholder="Votre nom"
                                         autocomplete="on" required>
                                 </fieldset>
                             </div>
@@ -41,20 +41,20 @@
                                 <fieldset>
                                     <label for="email">Adresse email</label>
                                     <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*"
-                                        placeholder="Your E-mail..." required="">
+                                        placeholder="Votre e-mail" required="">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
                                     <label for="subject">Objet</label>
-                                    <input type="subject" name="subject" id="subject" placeholder="Subject..."
+                                    <input type="subject" name="subject" id="subject" placeholder="Objet..."
                                         autocomplete="on">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
                                     <label for="message">Message</label>
-                                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                                    <textarea name="message" id="message" placeholder="Votre message"></textarea>
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
@@ -69,3 +69,7 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+    
+</style>

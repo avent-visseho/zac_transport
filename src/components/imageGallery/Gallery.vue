@@ -4,58 +4,32 @@
             <div class="gallery-content">
                 <div ref="slider" class="slider">
                     <!-- one -->
-                    <div class="slides" style="--img:url('/public/assets/zacImages/b1.jpeg')">
-                        <div class="content">
-                            <h2>Welcome ...</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est tempore quos id
-                                consequuntur. Totam dolores culpa aliquam eum, tempore error enim nostrum corporis omnis
-                                accusantium perspiciatis repellendus cum consequuntur.</p>
-                        </div>
+                    <div class="slides">
+                        <img src="/src/assets/zacImages/a.jpeg" alt="">
+
                     </div>
                     <!-- one -->
-                    <div class="slides" style="--img:url('/public/assets/zacImages/b4.jpeg')">
-                        <div class="content">
-                            <h2>Welcome ...</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est tempore quos id
-                                consequuntur. Totam dolores culpa aliquam eum, tempore error enim nostrum corporis omnis
-                                accusantium perspiciatis repellendus cum consequuntur.</p>
-                        </div>
+                    <div class="slides">
+                        <img src="/src/assets/zacImages/b5.jpeg" alt="">
+
                     </div>
                     <!-- one -->
-                    <div class="slides" style="--img:url('/public/assets/zacImages/b3.jpeg')">
-                        <div class="content">
-                            <h2>Welcome ...</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est tempore quos id
-                                consequuntur. Totam dolores culpa aliquam eum, tempore error enim nostrum corporis omnis
-                                accusantium perspiciatis repellendus cum consequuntur.</p>
-                        </div>
+                    <div class="slides">
+                        <img src="/src/assets/zacImages/b1.jpeg" alt="">
+
                     </div>
                     <!-- one -->
-                    <div class="slides" style="--img:url('/public/assets/zacImages/b5.jpeg')">
-                        <div class="content">
-                            <h2>Welcome ...</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est tempore quos id
-                                consequuntur. Totam dolores culpa aliquam eum, tempore error enim nostrum corporis omnis
-                                accusantium perspiciatis repellendus cum consequuntur.</p>
-                        </div>
+                    <div class="slides">
+                        <img src="/src/assets/zacImages/b9.jpeg" alt="">
                     </div>
                     <!-- one -->
-                    <div class="slides" style="--img:url('/public/assets/zacImages/b6.jpeg')">
-                        <div class="content">
-                            <h2>Welcome ...</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est tempore quos id
-                                consequuntur. Totam dolores culpa aliquam eum, tempore error enim nostrum corporis omnis
-                                accusantium perspiciatis repellendus cum consequuntur.</p>
-                        </div>
+                    <div class="slides">
+                        <img src="/src/assets/zacImages/b.jpeg" alt="">
                     </div>
                     <!-- one -->
-                    <div class="slides" style="--img:url('/public/assets/zacImages/b8.jpeg')">
-                        <div class="content">
-                            <h2>Welcome ...</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est tempore quos id
-                                consequuntur. Totam dolores culpa aliquam eum, tempore error enim nostrum corporis omnis
-                                accusantium perspiciatis repellendus cum consequuntur.</p>
-                        </div>
+                    <div class="slides">
+                        <!-- <video src="/src/assets/zacImages/bv1.mp4"></video> -->
+                        <img src="/src/assets/zacImages/a.jpeg" alt="">
                     </div>
                 </div>
                 <div class="buttons">
@@ -106,6 +80,10 @@ onMounted(() => {
 </script>
 
 <style scoped>
+:root {
+    --img-1: url('/src/assets/zacImages/b1.jpeg');
+}
+
 #gallery {
     margin: 65px 0;
 }
@@ -127,12 +105,13 @@ onMounted(() => {
 
 .slider .slides {
     position: absolute;
+    overflow: hidden;
     top: 50%;
     transform: translateY(-50%);
     width: 240px;
     height: 320px;
     border-radius: 20px;
-    background: var(--img);
+    /* background: var(--img); */
     transition: 0.5s;
     background-position: center;
     background-size: cover;
@@ -140,6 +119,12 @@ onMounted(() => {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .slider .slides:nth-child(1),
@@ -229,11 +214,12 @@ onMounted(() => {
     transform: translateY(0);
 }
 
-.content h2{
+.content h2 {
     font-size: 42px;
 }
 
-.content h2,p{
+.content h2,
+p {
     color: #fff;
     font-weight: bold;
 }

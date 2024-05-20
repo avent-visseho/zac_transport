@@ -10,6 +10,7 @@ import ContactSection from '@/components/banner/ContactSection.vue';
 import ContactForm from '@/components/forms/ContactForm.vue';
 import Footer from '@/components/footer/Footer.vue';
 import ServicesCard from '@/components/services/ServicesCard.vue'
+import SpeedDialog from '@/components/SpeedDialog/SpeedDialog.vue'
 </script>
 
 <template>
@@ -20,8 +21,9 @@ import ServicesCard from '@/components/services/ServicesCard.vue'
     <ServicesCard />
     <Gallery />
     <!-- <BestDeal /> -->
-<!--     <SlideBus /> -->
+    <!--     <SlideBus /> -->
     <ContactSection />
     <ContactForm />
+    <SpeedDialog />
     <Footer />
 </template>

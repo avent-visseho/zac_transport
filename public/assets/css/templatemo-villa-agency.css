@@ -576,6 +576,7 @@ Header Style
   top: 23px;
   width: 32px;
   height: 40px;
+  /*   background-color: red !important; */
   text-indent: -9999em;
   z-index: 99;
   right: 20px;
@@ -762,19 +763,24 @@ Header Style
   .header-area .menu-trigger {
     display: block !important;
   }
-  .header-area .main-nav {
+  /*   .header-area .main-nav {
     overflow: hidden;
-  }
+  } */
   .header-area .main-nav .nav {
     float: none;
     width: 100%;
-    display: none;
+    overflow: hidden;
     -webkit-transition: all 0s ease 0s;
     -moz-transition: all 0s ease 0s;
     -o-transition: all 0s ease 0s;
     transition: all 0s ease 0s;
     margin-left: 0px;
   }
+
+  .header-area .main-nav .nav.isMenuOpen {
+    display: block; /* Show the menu when the class is applied */
+  }
+
   .header-area .main-nav .nav li:first-child {
     border-top: 1px solid #eee;
   }

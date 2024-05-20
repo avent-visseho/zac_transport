@@ -11,9 +11,9 @@
                                 de bus ! Nos billets de bus pas chers vous permettent de voyager facilement et à petit
                                 prix
                                 où vous voulez, pour le travail ou pour vous évader.</p>
-                            <div class="btn-content">
+<!--                             <div class="btn-content">
                                 <button>voir plus</button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -210,5 +210,27 @@ form#reservation_content label {
         font-size: 3em;
         padding-bottom: 101px;
     }
+}
+
+
+@media (max-width : 900px) {
+    .content-box h1{
+        font-size: 35px;
+    }
+
+    .content-box p {
+    font-size: 14px;
+}
+}
+
+
+@media (max-width : 600px) {
+    .content-box h1{
+        font-size: 25px;
+    }
+
+    .content-box p {
+    font-size: 14px;
+}
 }
 </style>

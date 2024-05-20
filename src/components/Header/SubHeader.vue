@@ -12,7 +12,7 @@
                     <ul class="social-links">
                         <li><a href="https://web.facebook.com/profile.php?id=61559640325021" target="_blank"><i
                                     class="fab fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://wa.me/++22997768739"><i class="fab fa-whatsapp"></i></a></li>
                         <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                     </ul>

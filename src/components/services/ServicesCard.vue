@@ -14,7 +14,7 @@
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                             <div class="hidden-content">
                                 <h4>Location</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <p>Louer une voiture offre la liberté de voyager à son propre rythme.</p>
                             </div>
                             <div class="showed-content">
                                 <h4>Location des Véhicules</h4>
@@ -27,7 +27,7 @@
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="hidden-content">
                                 <h4>Livraison</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <p>Notre service de livraison de colis garantit rapidité et fiabilité.</p>
                             </div>
                             <div class="showed-content">
                                 <h4>Livraison de Colis</h4>
@@ -40,7 +40,7 @@
                         <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                             <div class="hidden-content">
                                 <h4>Réservation</h4>
-                                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+                                <p>Réservez votre ticket de voyage en ligne pour un départ en toute sérénité.</p>
                             </div>
                             <div class="showed-content">
                                 <h4>Réservation de Ticket</h4>
@@ -54,7 +54,7 @@
                             <div class="hidden-content">
                                 <h4>Carte de fidélité</h4>
                                 <p>
-                                <p>zac-GOLD, zac-PLATINIUM</p>
+                                <p>zac-GOLD, zac-PLATINIUM,Carte de fidélité VIP</p>
                                 </p>
                             </div>
                             <div class="showed-content">
@@ -160,6 +160,7 @@ Portfolio
 .our-portfolio .showed-content img {
     max-width: 100px;
 }
+
 
 @media (max-width: 992px) {
 

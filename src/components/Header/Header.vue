@@ -16,9 +16,9 @@
                             <li><a href="#featured">A propos</a></li>
                             <li><a href="#">Itinéraire</a></li>
                             <li><a href="#portfolio">Services</a></li>
-                              <li><a href="#contact"><i class="fa fa-user"></i> Contact</a></li>
+                            <li><a href="#contact"><i class="fa fa-user"></i> Contact</a></li>
                         </ul>
-                        <a class='menu-trigger'>
+                        <a class='menu-trigger' @click="toggleMenu">
                             <span>Menu</span>
                         </a>
                         <!-- ***** Menu End ***** -->
@@ -30,6 +30,20 @@
     <!-- ***** Header Area End ***** -->
 </template>
 
+
+<script setup>
+import { ref } from 'vue';
+
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+    isMenuOpen.value = !isMenuOpen.value;
+    console.log("bonjour");
+};
+
+
+</script>
+
 <style scoped>
 .main-nav .logo {
     display: block;
@@ -37,5 +51,7 @@
     padding-bottom: 35px;
     width: 120px;
 }
+
+
 
 </style>
